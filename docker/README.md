@@ -57,7 +57,7 @@ The Open Food Facts is ready to use again. The terminal can be closed but we sug
 There is two ways if you want to launch scripts "inside" the container:
 
 - `docker exec -it apache [path_and_name_of_the_script]`
-- `docket exec -it apache bash`
+- `docker exec -it apache bash`
 
 The second option open a bash environement inside the container.
 You can modify the server sources inside `/path/towards/docker-off/openfoodfacts-server/`.
